@@ -1,0 +1,57 @@
+# dependencies
+Backend/node_modules
+Frontend/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+/dist
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# optional lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# eslint cache
+.eslintcache
+
+# parcel-bundler cache
+.cache
+
+# storybook
+.out
+
+# vercel
+.vercel
+
+# next.js
+.next
+
+# macOS system files
+Thumbs.db
